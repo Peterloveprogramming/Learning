@@ -1,0 +1,19 @@
+//Create a list of 5 random numbers and adding them together 
+
+let a = [];
+
+for (let i =0;i<5;i++){
+    let k = Math.floor(Math.random()*((10-5)+5));
+    a.push(k)
+}
+
+console.log(a)
+
+
+
+
+let b = a.reduce((accumulator,currentvalue)=>(accumulator+currentvalue)
+,0);
+
+
+console.log(b)
