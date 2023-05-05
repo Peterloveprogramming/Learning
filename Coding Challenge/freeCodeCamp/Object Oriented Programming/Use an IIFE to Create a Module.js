@@ -3,7 +3,7 @@ Create a module named funModule to wrap the two mixins isCuteMixin and singMixin
 --
 
 
-let motionModule = (function () {
+let funModule  = (function () {
   return {
     isCuteMixin: function(obj) {
       obj.isCute = function() {
